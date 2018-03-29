@@ -56,10 +56,10 @@ The shown area is a flat wall, which means that the standard deviation of the sc
 Therefore, a thin distribution of points is an indicator for high quality pose estimates.
 
 Current upstream, i.e. implicit odometry-based constraints:
-![upstream](0000-assets/raw-pointcloud_current_upstream.png)
+![upstream](0018-assets/raw-pointcloud_current_upstream.png)
 
 Proposed explicit, separate weighting:
-![upstream](0000-assets/raw-pointcloud_separate_constraints.png)
+![upstream](0018-assets/raw-pointcloud_separate_constraints.png)
 
 The only parameters added for the new approach were:
 ```lua
